@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/button_reset"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
         android:id="@+id/button2"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -19,9 +18,9 @@
 
     <Button
         android:id="@+id/button3"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.445"
@@ -31,9 +30,9 @@
 
     <Button
         android:id="@+id/button4"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.845"
@@ -43,9 +42,9 @@
 
     <Button
         android:id="@+id/button5"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -55,9 +54,9 @@
 
     <Button
         android:id="@+id/button6"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.445"
@@ -67,9 +66,9 @@
 
     <Button
         android:id="@+id/button7"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.845"
@@ -79,9 +78,9 @@
 
     <Button
         android:id="@+id/button8"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -91,9 +90,9 @@
 
     <Button
         android:id="@+id/button9"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.445"
@@ -103,9 +102,9 @@
 
     <Button
         android:id="@+id/button10"
-        android:onClick="onBtnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.845"
@@ -124,11 +123,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.658" />
+
     <TextView
         android:id="@+id/player1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/player_1_0"
+        android:text="@string/player1"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -141,7 +141,7 @@
         android:id="@+id/player2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/player_2_0"
+        android:text="@string/player2"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -149,4 +149,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.882" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
 </android.support.constraint.ConstraintLayout>
